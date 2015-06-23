@@ -5,19 +5,18 @@
 
 The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you use the driver to control your Rovio, please pay some attention to the below:
 
-# Table of Contents 
+## Table of Contents 
 -------------------
 - [Library Dependencies](#Library Dependencies)
-- [Notes about the SDK](#notes-about-the-sdk)
 - [Using the SDK](#using-the-sdk)
-	- [Finding a MiP](#finding-mips)
-- SDK Documentation (coming soon)
-- [License](#license)
+	- [Cmake](#cmake)
+- The member function(#coming soon)
+
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [For more information](#for-more-information)
 
-Library Dependencies
+## Library Dependencies
 
 Before you use the driver, you need to install some dependencies.
 
