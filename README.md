@@ -68,7 +68,7 @@ First you should connect to the Rovio's network, you could use the adhoc model o
 -------------------
 
 ## For more information
-- E-mail:(sunzuolei@gmail.com)
+- E-mail:[sunzuolei@gmail.com](sunzuolei@gmail.com)
 
 ---------
 Thank you!
