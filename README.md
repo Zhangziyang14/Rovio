@@ -9,7 +9,7 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
 -------------------
 - [Library Dependencies](#Library Dependencies)
 	- [Cmake](#cmake)
-        - [Opencv](#cmake)
+        - [Opencv](#opencv)
         - [libjpeg](#cmake)
 - [The member function](#coming soon)
         - [configuration](#contributing)
