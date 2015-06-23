@@ -2,9 +2,6 @@
 ![Image of Rovio Wowwee](Rovio Wowwee.jpg)
 
 ~Rovio Wowwee~ ~Cmake~C++|driver|Linux]
-![Alt text](./Rovio Wowwee.jpg)
-
-
 
 **The driver **is under **linux**, and I test it with **ubuntu 14.04**. Before you use the driver to control your Rovio, please pay some attention to the below£º
  
