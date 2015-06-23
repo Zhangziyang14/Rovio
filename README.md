@@ -8,19 +8,19 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
 ## Table of Contents 
 -------------------
 - [Library Dependencies](#Library Dependencies)
-	- [Cmake](#cmake)
+        - [Cmake](#cmake)
         - [Opencv](#opencv)
         - [libjpeg](#libjpeg)
 - [The member function](#the-member-function)
-        - [configuration](#configuration)
+      - [configuration](#configuration)
         - [mobility control](#mobility-control)
         - [infrared](#infrared)
         - [camera](#camera)
-        - [LED](#LED)
+        - [LED](#led)
         - [sensor data](#sensor-data)
 - [Demo](#demo)
       - [The Obstacle Avoiding](#the-obstacle-avoiding)
-      - [The camera capture an image](#The-camera-capture-an-image)
+      - [The camera capture an image](#the-camera-capture-an-image)
 - [For more information](#for-more-information)
 
 ## Library Dependencies
@@ -51,7 +51,6 @@ Before you use the driver, you need to install some dependencies.
 ### mobility control
 
 ### infrared
-
 
 ### camera
 
