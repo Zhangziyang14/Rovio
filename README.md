@@ -17,7 +17,7 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
 - [Credits](#credits)
 - [Projects using this SDK](#projects-using-this-sdk)
 
-## Library Dependencies
+Library Dependencies
 
 Before you use the driver, you need to install some dependencies.
 
@@ -79,7 +79,7 @@ First you should connect to the Rovio's network, you could use the adhoc model o
 -------------------
 
 ## For more information
-- E-mail:[sunzuolei@gmail.com](sunzuolei@gmail.com)
+- E-mail:[wiform@foxmail.com](wiform@foxmail.com)
 
 ---------
 Thank you!
