@@ -21,7 +21,7 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
         - [LED](#contributing)
         - [sensor data](#contributing)
 - [Demo](#demo)
-      - [The Obstacle Avoiding](#contributing)
+      - [The Obstacle Avoiding](#The Obstacle Avoiding)
       - [The camera capture an image](#contributing)
 - [For more information](#for-more-information)
 
