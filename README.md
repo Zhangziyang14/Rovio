@@ -13,7 +13,7 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
         - [Opencv](#opencv)
 
         - [libjpeg](#cmake)
-- [The member function](#the-member-function)
+- [The member function](#the member function)
         - [configuration](#configuration)
         - [mobility control](#contributing)
         - [infrared](#contributing)
