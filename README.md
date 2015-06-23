@@ -15,7 +15,7 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
 - [License](#license)
 - [Contributing](#contributing)
 - [Credits](#credits)
-- [Projects using this SDK](#projects-using-this-sdk)
+- [For more information](#for-more-information)
 
 Library Dependencies
 
