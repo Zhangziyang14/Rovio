@@ -72,6 +72,6 @@ First you should connect to the Rovio's network, you could use the adhoc model o
 
 ---------
 Thank you!
-
+:panda_face:
 
 
