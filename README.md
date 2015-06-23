@@ -1,17 +1,14 @@
 # The Driver for Rovio Wowwee
 ![Image of Rovio Wowwee](Rovio Wowwee.jpg)
+`Cmake` `C++` `driver` `Linux`
 
-~Rovio Wowwee~ ~Cmake~C++|driver|Linux]
-
-**The driver **is under **linux**, and I test it with **ubuntu 14.04**. Before you use the driver to control your Rovio, please pay some attention to the below£º
+The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you use the driver to control your Rovio, please pay some attention to the below£º
  
 -------------------
 
-[TOC]
+
 
 ## Library Dependencies
-
-
 
 Before you use the driver, you need to install some dependencies.
 
@@ -20,7 +17,9 @@ Before you use the driver, you need to install some dependencies.
 
 ### Opencv
 >sudo apt-get install libopencv-dev
+
 ###libjpeg
+
 >sudo apt-cache search libjpeg
 >sudo apt-get install libjpeg
 
@@ -38,7 +37,7 @@ Before you use the driver, you need to install some dependencies.
 ### LED
 
 ### sensor data
-
+-------------------
 
 ## Demo
 ### The Obstacle Avoiding
@@ -46,7 +45,7 @@ Before you use the driver, you need to install some dependencies.
 
 ### The camera capture an image
 
-
+-------------------
 ## How to run a demo
 First you should connect to the Rovio's network, you could use the adhoc model or local lan network, I test the driver with the adhoc model, just  connect to the Wifi(SSID:ROVIO_WOWWEE)
 
@@ -58,10 +57,10 @@ First you should connect to the Rovio's network, you could use the adhoc model o
 >cd ../testbin
 >./testobstacleavoiding
 
-
+-------------------
 
 ## For more information
-- E-mail£º<sunzuolei@gmail.com>
+- E-mail:(sunzuolei@gmail.com
 
 ---------
 Thank you£¡
