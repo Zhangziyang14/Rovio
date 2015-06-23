@@ -16,7 +16,8 @@
 Before you use the driver, you need to install some dependencies.
 
 ### Cmake 
->sudo apt-get install cmake
+> sudo apt-get install cmake
+
 ### Opencv
 >sudo apt-get install libopencv-dev
 ###libjpeg
