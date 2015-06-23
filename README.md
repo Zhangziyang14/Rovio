@@ -9,10 +9,12 @@ The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you u
 -------------------
 - [Library Dependencies](#Library Dependencies)
 	- [Cmake](#cmake)
+
         - [Opencv](#opencv)
+
         - [libjpeg](#cmake)
-- [The member function](#coming soon)
-        - [configuration](#contributing)
+- [The member function](#the-member-function)
+        - [configuration](#configuration)
         - [mobility control](#contributing)
         - [infrared](#contributing)
         - [camera](#contributing)
@@ -46,7 +48,7 @@ Before you use the driver, you need to install some dependencies.
 ## The member function 
 -------------------
 
-###configuration
+### configuration
 
 ### mobility control
 
