@@ -1,12 +1,11 @@
 # The Driver for Rovio Wowwee
-![Image of Rovio Wowwee](Rovio Wowwee.jpg)
 `Cmake` `C++` `driver` `Linux`
 
-The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you use the driver to control your Rovio, please pay some attention to the below£º
+![Alt text](./Rovio Wowwee.jpg)
+
+The driver is under **linux**, and I test it with **ubuntu 14.04**. Before you use the driver to control your Rovio, please pay some attention to the below:
  
 -------------------
-
-
 
 ## Library Dependencies
 
@@ -22,6 +21,9 @@ Before you use the driver, you need to install some dependencies.
 
 >sudo apt-cache search libjpeg
 >sudo apt-get install libjpeg
+
+
+-------------------
 
 ## The member function 
 
@@ -50,20 +52,26 @@ Before you use the driver, you need to install some dependencies.
 First you should connect to the Rovio's network, you could use the adhoc model or local lan network, I test the driver with the adhoc model, just  connect to the Wifi(SSID:ROVIO_WOWWEE)
 
 >cd Wowwee
+
 >mkdir build
+
 >cd build
+
 >cmake ..
+
 >make
+
 >cd ../testbin
+
 >./testobstacleavoiding
 
 -------------------
 
 ## For more information
-- E-mail:(sunzuolei@gmail.com
+- E-mail:(sunzuolei@gmail.com)
 
 ---------
-Thank you£¡
+Thank you!
 
 
 
