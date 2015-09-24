@@ -997,37 +997,14 @@ int RobotInterface::getImage(IplImage *image) {
  * @return  RI_RESP_SUCCESS;
  * @note save an image from the camera in the IplImage format used by OpenCV.
  */
-int RobotInterface::saveImage(IplImage *image){
+int RobotInterface::saveImage(IplImage *image,int image_number){
     // Create an image to store the image from the camera
     image = cvCreateImage(cvSize(640, 480), IPL_DEPTH_8U, 3);
     getImage(image);
-    time_t t = 0;
-    char cvLog[21] = {0};
-    char str[20] = {0};
-    time(&t);
-    struct tm *ptm = localtime(&t);
-    strftime(str,sizeof(str),"%Y%m%d%H%M%S",ptm);
-    //printf the time that catched by PC
-    printf("%s\n",str);
-    //cvLog is the path and the file name, the file name is just the time you have just catched
-    sprintf(cvLog,"/home/zzy/Rovio-image/%s.jpeg",str);
-    cvSaveImage(cvLog , image);
-  //reserve the image in a folder that you can create it
-    FILE *fp = NULL;
-    char fname[32];
-    char filename[50];
-    printf("Please enter the file's name\n");
-    scanf("%s",fname);
-    strcat(fname,".txt");
-    sprintf(filename,"/home/zzy/Rovio-image/%s",fname);
-    fp = fopen(filename,"a+");
-    if(fp==NULL){
-        printf("file open failed!");
-        return -1;
-    }
-    fprintf(fp,"%s\n",str);
-    fclose(fp);
-
+    char cvLog[400] = {0};
+   int number =  image_number;
+    sprintf(cvLog,"/home/zzy/Rovio-image/%d.jpeg",number);
+    cvSaveImage(cvLog , image); 
     return RI_RESP_SUCCESS;
 }
 

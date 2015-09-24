@@ -20,9 +20,9 @@ int main() {
 		// Move forward unless there's something in front of the robot
         if(!robot->IRDetected())
         {robot->move(RI_MOVE_FORWARD, RI_FASTEST);
-           printf("There is nothing");}
+           }
         else
-            robot->move(RI_MOVE_LEFT,RI_FASTEST);
+            robot->move(RI_TURN_LEFT,RI_FASTEST);
 
 	} while(1);	
 
